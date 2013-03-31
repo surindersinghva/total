@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Total Web feature.
+ */
+
+include_once 'total_web.features.inc';
