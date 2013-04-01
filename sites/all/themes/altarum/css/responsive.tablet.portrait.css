@@ -1,0 +1,140 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the body font size on small devices */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700);
+
+html {
+  background: #fff;
+}
+
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 75%;
+}
+
+/* hide leaderboard */
+#leaderboard {
+	display:none;
+}
+
+/* Search block in header */ 
+#search-block {
+	display:none;	
+}
+
+/* Secondary content blocks */
+#block-block-4 {
+	float:left;
+	width:50%;
+	margin:0;
+}
+#block-block-10 {
+	float:left;
+	width:50%;
+	margin:0;
+}
+
+/* Preface region */
+#preface_wrap {
+	width:80%;
+	margin:auto;	
+}
+#preface_one {
+	float:left;
+	width:50%;
+	margin:0;
+}
+#preface_two {
+	float:left;
+	width:50%;
+	margin:0;
+}
+#preface_three {
+	clear:both;
+	margin:0;
+}
+
+/* navigation */
+#primary-menu-bar {
+	display:none;
+}
+
+/* Mobile Navigation */
+
+.wrapper {
+}
+
+/*header*/
+
+#menu-header {
+	background: darkred;
+	padding: 15px 20px;
+	margin:0px;
+	border-top: 1px solid #000;
+	overflow:hidden;
+}
+
+a.to_nav {
+	float: right;
+	color: #fff;
+	background: #4e4e4e;
+	text-decoration: none;
+	padding: 0 10px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 22px;
+	height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+a.to_nav:hover,
+a.to_nav:focus {
+	color: #1c1c1c;
+	background: #ccc;
+}
+	
+/*navigation*/	
+
+#primary_nav ul {
+	list-style: none;
+	background: darkred;
+	padding: 5px 0;
+	margin:0px;
+}
+
+#primary_nav li a {
+	display: block;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	letter-spacing: 0.1em;
+	line-height: 2em;
+	height: 2em;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+#primary_nav li:last-child a {
+	border-bottom: none;
+}
+
+#primary_nav li a:hover,
+#primary_nav li a:focus {
+	color: #1c1c1c;
+	background: #ccc;
+}

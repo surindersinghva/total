@@ -1,0 +1,71 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700);
+
+html {
+  background: #fff;
+}
+
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 87.5%;
+}
+
+/* Search block in header */
+#search-block {
+	position:absolute;
+	bottom:15px;
+	right:0px;	
+}
+
+/* Secondary-content blocks */
+#block-block-4 {
+	float:left;
+	width:50%;
+	margin:0;
+}
+#block-block-10 {
+	float:left;
+	width:50%;
+	margin:0;
+}
+
+/* Preface region */
+#preface_wrap {
+	width:80%;
+	margin:auto;	
+}
+#preface_one {
+	float:left;
+	width:33%;
+	margin:0;
+}
+#preface_two {
+	float:left;
+	width:33%;
+	margin:0;
+}
+#preface_three {
+	float:left;
+	width:34%;
+	margin:0;
+}
+
+/* navigation */ 
+.wrapper {
+	display:none;	
+}
+	
+#primary-menu-bar {
+	background:	#8A0808;
+	width:100%;
+	margin:0;
+}
